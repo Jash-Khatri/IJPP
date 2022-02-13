@@ -1,0 +1,91 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading from graph_1500_10.txt:
+  Parsing MARKET COO format (1124252 nodes, 3369752 directed edges)... 
+Time taken by vertex removal: 0 microseconds
+spectral sparcification
+
+Time taken by edge removal: 8965 microseconds
+spectral sparcification end
+  Done (1 s).
+  Writing meta data into graph_1500_10.txt.meta
+  Writting edge pairs in binary into graph_1500_10.txt.coo_edge_pairs
+  Writting edge values in binary into graph_1500_10.txt.coo_edge_values
+  Substracting 1 from node Ids...
+ Removed 1 self circles.
+  graph loaded as COO in 1.738783s.
+Converting 1124252 vertices, 3369751 directed edges ( ordered tuples) to CSR format...Done (0s).
+Degree Histogram (1124252 vertices, 3369751 edges):
+    Degree 0: 2 (0.000178 %)
+    Degree 2^0: 1498 (0.133244 %)
+    Degree 2^1: 1122751 (99.866489 %)
+    Degree 2^2: 0 (0.000000 %)
+    Degree 2^3: 0 (0.000000 %)
+    Degree 2^4: 0 (0.000000 %)
+    Degree 2^5: 0 (0.000000 %)
+    Degree 2^6: 0 (0.000000 %)
+    Degree 2^7: 0 (0.000000 %)
+    Degree 2^8: 0 (0.000000 %)
+    Degree 2^9: 0 (0.000000 %)
+    Degree 2^10: 0 (0.000000 %)
+    Degree 2^11: 0 (0.000000 %)
+    Degree 2^12: 0 (0.000000 %)
+    Degree 2^13: 0 (0.000000 %)
+    Degree 2^14: 0 (0.000000 %)
+    Degree 2^15: 0 (0.000000 %)
+    Degree 2^16: 0 (0.000000 %)
+    Degree 2^17: 0 (0.000000 %)
+    Degree 2^18: 0 (0.000000 %)
+    Degree 2^19: 0 (0.000000 %)
+    Degree 2^20: 1 (0.000089 %)
+
+Loading Matrix-market coordinate-formatted graph ...
+  Reading meta data from graph_1500_10.txt.meta
+  Reading edge lists from graph_1500_10.txt.coo_edge_pairs
+Reading from graph_1500_10.txt.coo_edge_pairs, typeId = 262, targetId = 262, length = 3369752
+  Reading edge values from graph_1500_10.txt.coo_edge_values
+Reading from graph_1500_10.txt.coo_edge_values, typeId = 20, targetId = 20, length = 3369752
+  Substracting 1 from node Ids...
+  Edge doubleing: 3369752 -> 6739504 edges
+  Removed 2 duplicate edges and self circles.
+  graph loaded as COO in 0.374564s.
+Converting 1124252 vertices, 6739502 directed edges ( ordered tuples) to CSR format...Done (0s).
+Degree Histogram (1124252 vertices, 6739502 edges):
+    Degree 0: 1 (0.000089 %)
+    Degree 2^0: 0 (0.000000 %)
+    Degree 2^1: 1122751 (99.866489 %)
+    Degree 2^2: 0 (0.000000 %)
+    Degree 2^3: 0 (0.000000 %)
+    Degree 2^4: 0 (0.000000 %)
+    Degree 2^5: 0 (0.000000 %)
+    Degree 2^6: 0 (0.000000 %)
+    Degree 2^7: 0 (0.000000 %)
+    Degree 2^8: 0 (0.000000 %)
+    Degree 2^9: 0 (0.000000 %)
+    Degree 2^10: 1498 (0.133244 %)
+    Degree 2^11: 1 (0.000089 %)
+    Degree 2^12: 0 (0.000000 %)
+    Degree 2^13: 0 (0.000000 %)
+    Degree 2^14: 0 (0.000000 %)
+    Degree 2^15: 0 (0.000000 %)
+    Degree 2^16: 0 (0.000000 %)
+    Degree 2^17: 0 (0.000000 %)
+    Degree 2^18: 0 (0.000000 %)
+    Degree 2^19: 0 (0.000000 %)
+    Degree 2^20: 1 (0.000089 %)
+
+Number of ForAll() repeats per iteration: 1000000
+==============================================
+64bit-VertexT=false 64bit-SizeT=false 64bit-ValueT=true undirected=true advance-mode=LB
+Using advance mode LB
+Using filter mode CULL
+______GPU PushRelabel algorithm____
+-----------------------------------
+Run 0, elapsed: 9131.548882 ms, #iterations = 1
+Max Flow GPU = 28611.000000
+MIN CUT flow = 28611.000000
+Flow Validity:
+1 errors occurred.
+[mf] finished.
+ avg. elapsed: 9131.548882 ms
+ iterations: 140737232063216
+Fewer than 5 vertices visited.

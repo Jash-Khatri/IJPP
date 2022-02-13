@@ -1,0 +1,61 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading from graph_41.txt:
+  Parsing MARKET COO format (114601 nodes, 119894 directed edges)... 
+Time taken by vertex removal: 0 microseconds
+spectral sparcification
+
+Time taken by edge removal: 1153 microseconds
+spectral sparcification end
+  Done (0 s).
+  Writing meta data into graph_41.txt.meta
+  Writting edge pairs in binary into graph_41.txt.coo_edge_pairs
+  Writting edge values in binary into graph_41.txt.coo_edge_values
+  Substracting 1 from node Ids...
+  graph loaded as COO in 0.136714s.
+Converting 114601 vertices, 119894 directed edges ( ordered tuples) to CSR format...Done (0s).
+Degree Histogram (114601 vertices, 119894 edges):
+    Degree 0: 3719 (3.245172 %)
+    Degree 2^0: 102152 (89.137093 %)
+    Degree 2^1: 8719 (7.608136 %)
+    Degree 2^2: 10 (0.008726 %)
+    Degree 2^3: 0 (0.000000 %)
+    Degree 2^4: 0 (0.000000 %)
+    Degree 2^5: 0 (0.000000 %)
+    Degree 2^6: 1 (0.000873 %)
+
+Loading Matrix-market coordinate-formatted graph ...
+  Reading meta data from graph_41.txt.meta
+  Reading edge lists from graph_41.txt.coo_edge_pairs
+Reading from graph_41.txt.coo_edge_pairs, typeId = 262, targetId = 262, length = 119894
+  Reading edge values from graph_41.txt.coo_edge_values
+Reading from graph_41.txt.coo_edge_values, typeId = 20, targetId = 20, length = 119894
+  Substracting 1 from node Ids...
+  Edge doubleing: 119894 -> 239788 edges
+  graph loaded as COO in 0.049413s.
+Converting 114601 vertices, 239788 directed edges ( ordered tuples) to CSR format...Done (0s).
+Degree Histogram (114601 vertices, 239788 edges):
+    Degree 0: 0 (0.000000 %)
+    Degree 2^0: 3929 (3.428417 %)
+    Degree 2^1: 109572 (95.611731 %)
+    Degree 2^2: 1098 (0.958107 %)
+    Degree 2^3: 0 (0.000000 %)
+    Degree 2^4: 0 (0.000000 %)
+    Degree 2^5: 0 (0.000000 %)
+    Degree 2^6: 2 (0.001745 %)
+
+Number of ForAll() repeats per iteration: 100000
+==============================================
+64bit-VertexT=false 64bit-SizeT=false 64bit-ValueT=true undirected=true advance-mode=LB
+Using advance mode LB
+Using filter mode CULL
+______GPU PushRelabel algorithm____
+-----------------------------------
+Run 0, elapsed: 667.125940 ms, #iterations = 1
+Max Flow GPU = 21.000000
+MIN CUT flow = 21.000000
+Flow Validity:
+PASS
+[mf] finished.
+ avg. elapsed: 667.125940 ms
+ iterations: 140728738175776
+Fewer than 5 vertices visited.

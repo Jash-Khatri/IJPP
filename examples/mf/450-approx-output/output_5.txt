@@ -1,0 +1,83 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading from graph_450_5.txt:
+  Parsing MARKET COO format (101027 nodes, 302177 directed edges)... 
+Time taken by vertex removal: 0 microseconds
+spectral sparcification
+
+Time taken by edge removal: 1133 microseconds
+spectral sparcification end
+  Done (0 s).
+  Writing meta data into graph_450_5.txt.meta
+  Writting edge pairs in binary into graph_450_5.txt.coo_edge_pairs
+  Writting edge values in binary into graph_450_5.txt.coo_edge_values
+  Substracting 1 from node Ids...
+ Removed 1 self circles.
+  graph loaded as COO in 0.248799s.
+Converting 101027 vertices, 302176 directed edges ( ordered tuples) to CSR format...Done (0s).
+Degree Histogram (101027 vertices, 302176 edges):
+    Degree 0: 2 (0.001980 %)
+    Degree 2^0: 448 (0.443446 %)
+    Degree 2^1: 100576 (99.553585 %)
+    Degree 2^2: 0 (0.000000 %)
+    Degree 2^3: 0 (0.000000 %)
+    Degree 2^4: 0 (0.000000 %)
+    Degree 2^5: 0 (0.000000 %)
+    Degree 2^6: 0 (0.000000 %)
+    Degree 2^7: 0 (0.000000 %)
+    Degree 2^8: 0 (0.000000 %)
+    Degree 2^9: 0 (0.000000 %)
+    Degree 2^10: 0 (0.000000 %)
+    Degree 2^11: 0 (0.000000 %)
+    Degree 2^12: 0 (0.000000 %)
+    Degree 2^13: 0 (0.000000 %)
+    Degree 2^14: 0 (0.000000 %)
+    Degree 2^15: 0 (0.000000 %)
+    Degree 2^16: 1 (0.000990 %)
+
+Loading Matrix-market coordinate-formatted graph ...
+  Reading meta data from graph_450_5.txt.meta
+  Reading edge lists from graph_450_5.txt.coo_edge_pairs
+Reading from graph_450_5.txt.coo_edge_pairs, typeId = 262, targetId = 262, length = 302177
+  Reading edge values from graph_450_5.txt.coo_edge_values
+Reading from graph_450_5.txt.coo_edge_values, typeId = 20, targetId = 20, length = 302177
+  Substracting 1 from node Ids...
+  Edge doubleing: 302177 -> 604354 edges
+  Removed 2 duplicate edges and self circles.
+  graph loaded as COO in 0.029254s.
+Converting 101027 vertices, 604352 directed edges ( ordered tuples) to CSR format...Done (0s).
+Degree Histogram (101027 vertices, 604352 edges):
+    Degree 0: 1 (0.000990 %)
+    Degree 2^0: 0 (0.000000 %)
+    Degree 2^1: 100576 (99.553585 %)
+    Degree 2^2: 0 (0.000000 %)
+    Degree 2^3: 0 (0.000000 %)
+    Degree 2^4: 0 (0.000000 %)
+    Degree 2^5: 0 (0.000000 %)
+    Degree 2^6: 0 (0.000000 %)
+    Degree 2^7: 0 (0.000000 %)
+    Degree 2^8: 448 (0.443446 %)
+    Degree 2^9: 1 (0.000990 %)
+    Degree 2^10: 0 (0.000000 %)
+    Degree 2^11: 0 (0.000000 %)
+    Degree 2^12: 0 (0.000000 %)
+    Degree 2^13: 0 (0.000000 %)
+    Degree 2^14: 0 (0.000000 %)
+    Degree 2^15: 0 (0.000000 %)
+    Degree 2^16: 1 (0.000990 %)
+
+Number of ForAll() repeats per iteration: 100000
+==============================================
+64bit-VertexT=false 64bit-SizeT=false 64bit-ValueT=true undirected=true advance-mode=LB
+Using advance mode LB
+Using filter mode CULL
+______GPU PushRelabel algorithm____
+-----------------------------------
+Run 0, elapsed: 834.204912 ms, #iterations = 1
+Max Flow GPU = 23240.000000
+MIN CUT flow = 23240.000000
+Flow Validity:
+1 errors occurred.
+[mf] finished.
+ avg. elapsed: 834.204912 ms
+ iterations: 140720838779072
+Fewer than 5 vertices visited.

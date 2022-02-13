@@ -1,0 +1,58 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading from graph_39.txt:
+  Parsing MARKET COO format (114601 nodes, 119894 directed edges)... 
+Time taken by vertex removal: 0 microseconds
+  Done (0 s).
+  Writing meta data into graph_39.txt.meta
+  Writting edge pairs in binary into graph_39.txt.coo_edge_pairs
+  Writting edge values in binary into graph_39.txt.coo_edge_values
+  Substracting 1 from node Ids...
+  graph loaded as COO in 0.139665s.
+Converting 114601 vertices, 119894 directed edges ( ordered tuples) to CSR format...Done (0s).
+Degree Histogram (114601 vertices, 119894 edges):
+    Degree 0: 3720 (3.246045 %)
+    Degree 2^0: 102155 (89.139711 %)
+    Degree 2^1: 8715 (7.604646 %)
+    Degree 2^2: 10 (0.008726 %)
+    Degree 2^3: 0 (0.000000 %)
+    Degree 2^4: 0 (0.000000 %)
+    Degree 2^5: 0 (0.000000 %)
+    Degree 2^6: 1 (0.000873 %)
+
+Loading Matrix-market coordinate-formatted graph ...
+  Reading meta data from graph_39.txt.meta
+  Reading edge lists from graph_39.txt.coo_edge_pairs
+Reading from graph_39.txt.coo_edge_pairs, typeId = 262, targetId = 262, length = 119894
+  Reading edge values from graph_39.txt.coo_edge_values
+Reading from graph_39.txt.coo_edge_values, typeId = 20, targetId = 20, length = 119894
+  Substracting 1 from node Ids...
+  Edge doubleing: 119894 -> 239788 edges
+  graph loaded as COO in 0.049681s.
+Converting 114601 vertices, 239788 directed edges ( ordered tuples) to CSR format...Done (0s).
+Degree Histogram (114601 vertices, 239788 edges):
+    Degree 0: 0 (0.000000 %)
+    Degree 2^0: 3934 (3.432780 %)
+    Degree 2^1: 109563 (95.603878 %)
+    Degree 2^2: 1102 (0.961597 %)
+    Degree 2^3: 0 (0.000000 %)
+    Degree 2^4: 0 (0.000000 %)
+    Degree 2^5: 0 (0.000000 %)
+    Degree 2^6: 2 (0.001745 %)
+
+Number of ForAll() repeats per iteration: 100000
+==============================================
+64bit-VertexT=false 64bit-SizeT=false 64bit-ValueT=true undirected=true advance-mode=LB
+Using advance mode LB
+Using filter mode CULL
+______GPU PushRelabel algorithm____
+-----------------------------------
+Run 0, elapsed: 1527.060032 ms, #iterations = 2
+Max Flow GPU = 25.000000
+MIN CUT flow = 39.000000
+FAIL: Min cut 39.000000 and max flow 25.000000 are not equal
+Flow Validity:
+15 errors occurred.
+[mf] finished.
+ avg. elapsed: 1527.060032 ms
+ iterations: 140721775834576
+Fewer than 5 vertices visited.

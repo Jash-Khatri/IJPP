@@ -1,0 +1,65 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading from graph_46.txt:
+  Parsing MARKET COO format (114601 nodes, 119894 directed edges)... 
+Time taken by vertex removal: 0 microseconds
+spectral sparcification
+
+Time taken by edge removal: 1016 microseconds
+spectral sparcification end
+  Done (0 s).
+  Writing meta data into graph_46.txt.meta
+  Writting edge pairs in binary into graph_46.txt.coo_edge_pairs
+  Writting edge values in binary into graph_46.txt.coo_edge_values
+  Substracting 1 from node Ids...
+ Removed 1014 self circles.
+  graph loaded as COO in 0.114053s.
+Converting 114601 vertices, 118880 directed edges ( ordered tuples) to CSR format...Done (0s).
+Time taken by function: 5530 microseconds
+Degree Histogram (114601 vertices, 118880 edges):
+    Degree 0: 3749 (3.271350 %)
+    Degree 2^0: 103048 (89.918936 %)
+    Degree 2^1: 7795 (6.801860 %)
+    Degree 2^2: 8 (0.006981 %)
+    Degree 2^3: 0 (0.000000 %)
+    Degree 2^4: 0 (0.000000 %)
+    Degree 2^5: 0 (0.000000 %)
+    Degree 2^6: 1 (0.000873 %)
+
+Loading Matrix-market coordinate-formatted graph ...
+  Reading meta data from graph_46.txt.meta
+  Reading edge lists from graph_46.txt.coo_edge_pairs
+Reading from graph_46.txt.coo_edge_pairs, typeId = 262, targetId = 262, length = 119894
+  Reading edge values from graph_46.txt.coo_edge_values
+Reading from graph_46.txt.coo_edge_values, typeId = 20, targetId = 20, length = 119894
+  Substracting 1 from node Ids...
+  Edge doubleing: 119894 -> 239788 edges
+  Removed 2028 duplicate edges and self circles.
+  graph loaded as COO in 0.015497s.
+Converting 114601 vertices, 237760 directed edges ( ordered tuples) to CSR format...Done (0s).
+Time taken by function: 5077 microseconds
+Degree Histogram (114601 vertices, 237760 edges):
+    Degree 0: 26 (0.022687 %)
+    Degree 2^0: 4702 (4.102931 %)
+    Degree 2^1: 108949 (95.068106 %)
+    Degree 2^2: 922 (0.804531 %)
+    Degree 2^3: 0 (0.000000 %)
+    Degree 2^4: 0 (0.000000 %)
+    Degree 2^5: 0 (0.000000 %)
+    Degree 2^6: 2 (0.001745 %)
+
+Number of ForAll() repeats per iteration: 100000
+==============================================
+64bit-VertexT=false 64bit-SizeT=false 64bit-ValueT=true undirected=true advance-mode=LB
+Using advance mode LB
+Using filter mode CULL
+______GPU PushRelabel algorithm____
+-----------------------------------
+Run 0, elapsed: 768.412113 ms, #iterations = 1
+Max Flow GPU = 5.000000
+MIN CUT flow = 5.000000
+Flow Validity:
+PASS
+[mf] finished.
+ avg. elapsed: 768.412113 ms
+ iterations: 140722104779200
+Fewer than 5 vertices visited.
