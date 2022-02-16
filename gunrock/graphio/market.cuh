@@ -249,58 +249,6 @@ bool quiet = parameters.Get<bool>("quiet");
 
   } // endfor
 
-  int isleft0deg = 1;
-  int rv;
-  int k=0;
-// Get starting timepoint
-    auto start = high_resolution_clock::now();
-
-  while(isleft0deg){
-        isleft0deg = 0;
-	rv=0;
-	  
-       if( k == NUM_ITER_FIXPOINT )
-          break;
-
-       k++;
-
-        std::vector <int> degree( ll_nodes_x + 1, 0);
-        for(int i=0;i<ll_edges;i++){
-        degree[edge_pairs[i].x]++;
-        degree[edge_pairs[i].y]++;	
-	}
-
-        for(int i=0;i<ll_edges;i++){
-                if( ( degree[edge_pairs[i].x] > 1 && degree[edge_pairs[i].y] > 1 ) || ( edge_pairs[i].x == nodes || edge_pairs[i].y == nodes )
-                 || ( edge_pairs[i].x == (nodes-1) || edge_pairs[i].y == (nodes-1) ) ){
-                edge_pairs[i].x = edge_pairs[i].x;
-                edge_pairs[i].y = edge_pairs[i].y;
-                }
-                else{
-                isleft0deg = 1;
-		rv++;
-		if( degree[edge_pairs[i].x] <= 1  ){
-                edge_pairs[i].x = edge_pairs[i].x;
-                edge_pairs[i].y = edge_pairs[i].x;
-		}
-		else{
-                edge_pairs[i].x = edge_pairs[i].y;
-                edge_pairs[i].y = edge_pairs[i].y;
-		}
-
-                }
-        }
-	std::cout << "iteration " << k << " " << rv << "\n";
-  } // end of while loop
-	
-	// Get ending timepoint
-    	auto stop = high_resolution_clock::now();
-
-	auto duration = duration_cast<microseconds>(stop - start);
-  
-    std::cout << "\nTime taken by vertex removal: "
-         << duration.count() << " microseconds" << std::endl;
-
 if(ENABLE_SPEC_SPARSE){
 
 std::cout << "spectral sparcification\n";
