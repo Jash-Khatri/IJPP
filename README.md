@@ -1,5 +1,5 @@
 # Scaling the Maximum Flow Computation on GPUs
-Before executing the below steps, ensure that you have CUDA 9.1 or higher and GCC/G++ 4.8.5 or higher installed on your Linux system. Also, make sure that your GPU has compute capability of 7.0 or higher. Quick steps for getting started:
+Before executing the below steps, ensure that you have CUDA 9.1 or higher and GCC/G++ 4.8.5 or higher installed on your Linux system. Quick steps for getting started:
 ```
 git clone https://github.com/Jash-Khatri/IJPP.git
 cd IJPP
