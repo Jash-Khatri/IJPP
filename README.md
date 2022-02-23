@@ -11,4 +11,4 @@ CPU: Intel Xeon E5-2640 v4 @ 2.4 GHz CPU having 64 GB RAM \
 GPU: Nvidia GeForce RTX 2080 Ti \
 OS: CentOS 7 (64-bit) \
 CUDA Toolkit: CUDA 9.1 \
-GCC/G++ compiler: 4.8.5 \
+GCC/G++ compiler: 4.8.5 
