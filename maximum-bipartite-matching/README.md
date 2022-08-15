@@ -1,0 +1,1 @@
+This folder contains the code to preprocess the bipartite graphs so that the maximum bipartite matching problem can be modeled as a maximum flow problem. The code figures out the two sets s1 and s2 in the input bipartite graphs and adds the appropriate source and sink vertices. Then it connects vertices in s1 to the source vertex and vertices in s2 to the sink vertex.
